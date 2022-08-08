@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
+}
+
+.max-width {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 60px;
+}
+
+.dark-grey {
+    color: rgb(110, 110, 110);
+}
+
+header {
+    padding: 20px 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+header.scrolling {
+    box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar .logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-bar .logo span {
+    color: red;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list ul li .nav-btn {
+    padding: 5px 10px;
+    color: rgb(107, 107, 107);
+}
+
+nav ul li.active {
+    border: 2px solid red;
+    border-width: 0 0 2px 0;
+}
+
+.top-btn {
+    background-color: red;
+    padding: 7px 16px;
+    border-bottom-right-radius: 8px;
+    color: white;
+}
+
+
+/* land-page */
+
+.land-page {
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-page-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.land-page-item-1 {
+    flex: 60%;
+}
+
+.land-page-item-2 {
+    flex: 40%;
+    position: relative;
+}
+
+
+
+.land-page-content .land-page-image {
+    text-align: end;
+}
+
+.land-page-content .land-page-image img {
+    max-width: 350px;
+    width: 100%;
+
+}
+
+.land-page-text {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.land-page-text h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.rel-img {
+    text-align: end;
+}
+
+.rel-img img {
+    height: 30px;
+}
+
+.land-page-text p {
+    margin: 20px 0 40px;
+    color: darkgrey;
+}
+
+
+.land-page-text span,
+.impact-section span {
+    color: red;
+}
+
+.btn-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn1,
+.btn2 {
+    padding: 5px 13px;
+    width: 160px;
+    background-color: red;
+    color: #fff;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
+.btn2 {
+    background-color: rgb(110, 110, 110);
+}
+
+/* End of Land page */
+
+
+.impact-section {
+    background-image: url("/images/bg2.png");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.impact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.impact-content-text {
+    flex: 60%;
+    padding-right: 30px;
+}
+
+.impact-content-text h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-image {
+    flex: 35%;
+}
+
+.right-image img {
+    width: 100%;
+    min-width: 200px;
+}
+
+.country-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.country-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.country-card img {
+    width: 40px;
+    height: 40px;
+}
+
+/* End of impact section */
+
+/* Start of why-us-section */
+.why-us-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.list-stacks,
+.talent-list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.stack {
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    color: rgb(110, 110, 110);
+    font-size: 17px;
+}
+
+
+.wus-header {
+    line-height: 1.8em;
+}
+
+.wus-header h2 {
+    font-size: 2.3rem;
+    line-height: 1.4em;
+    margin: 20px 0;
+}
+
+/* End of why-us-section */
+
+/* Why Hire us section */
+
+.wh-talent {
+    background-color: rgb(250, 241, 217);
+    padding: 100px 0;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+
+.wh-content h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 50px 0;
+    font-weight: 500;
+    color: grey;
+}
+
+.card {
+    background-color: #fff;
+    box-sizing: 5px 5px 5px rgba(0 0 0 0.2);
+    padding: 30px;
+    width: 30%;
+    min-width: 350px;
+    max-height: 350px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.card img {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* End of why hire us section */
+
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20vw;
+    row-gap: 40px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(223, 215, 215);
+}
+
+.social-content {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+
+.social-content img {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-content p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(240, 239, 239);
+    text-align: end;
+}
+
+
+
+/* End of footer */
+
+
+@media (max-width: 986px) {
+
+    .land-page-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .land-page-item-1,
+    .land-page-item-2 {
+        flex: 100%;
+    }
+
+    .btn-container {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media (max-width: 836px) {
+
+    .max-width {
+        padding: 0 30px;
+    }
+
+    .impact-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+
+
+    .land-page-text {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .impact-content-text,
+    .right-image {
+        flex: 100%;
+        padding: 0;
+    }
+
+    .country-cards {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right-image img {
+        margin-top: 70px;
+        max-width: 80%;
+    }
+
+    .card {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 679px) {
+
+    .nav-list ul {
+        display: none;
+    }
+
+    .wus-content {
+        text-align: center;
+    }
+
+
+    .list-stacks,
+    .talent-list {
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 567px) {
+    .card {
+        width: 100%;
+    }
+
+    .land-page-text h2 {
+        font-size: 7vw;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 456px) {
+    .max-width {
+        width: 100%;
+        padding: 15px;
+    }
+    .btn-container {
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn1,.btn2{
+        width: 90%;
+    }
+}
